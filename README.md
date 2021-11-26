@@ -1,6 +1,10 @@
 # microfrontends-webpack-module-federation
 Proyecto con 6 Microfrontends entre ellos 1 shell y 5 remotes, construidos en Reactjs y Webpack Plugin Module Federation
 
+Entre el MF de Autenticacion y MyAccount se comparte la Sesion por medio de SessionStorage donde interviene un Token generado inicialmente por el MF de Auth.
+
+Entre el MF de AccountDetails y PaymentDetails se comparte informacion por medio de EventEmitter 
+
 
 # Build and Deploy in Local
 
